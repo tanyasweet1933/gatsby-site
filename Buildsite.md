@@ -16,3 +16,9 @@ Next, make sure to tell Git to ignore that .env file from your repository by add
       }
     }
 
+8. git init at root
+9. create repo gatsby-site on github 
+10. git remote add origin https://github.com/tanyasweet1933/gatsby-site.git
+11.git push -u origin master
+12. create netlify , authorize github and add cf tokens to continous deployment build variables
+13.
