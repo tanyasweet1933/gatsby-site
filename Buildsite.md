@@ -1,3 +1,5 @@
+
+npm i -g gatsby-cli
 1. Create a new site. gatsby new gatsby-site
 2. cd gatsby-site
 3. gatsby develop
