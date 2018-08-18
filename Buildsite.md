@@ -21,4 +21,7 @@ Next, make sure to tell Git to ignore that .env file from your repository by add
 10. git remote add origin https://github.com/tanyasweet1933/gatsby-site.git
 11.git push -u origin master
 12. create netlify , authorize github and add cf tokens to continous deployment build variables
-13.
+13. in netlify create a new build hook - https://api.netlify.com/build_hooks/5b77fc5f1f12b76d80be4c09
+14. add webhook to contentful and select "entry" row item all checkboxes except for autosave
+15. continous build has now been set up
+https://www.halfelectronic.com/post/setting-up-gatsby-js-contentful-and-netlify
